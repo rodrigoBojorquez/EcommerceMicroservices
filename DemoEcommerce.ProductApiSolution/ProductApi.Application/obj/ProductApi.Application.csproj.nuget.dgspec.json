@@ -1,0 +1,192 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Application/ProductApi.Application.csproj": {}
+  },
+  "projects": {
+    "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Application/ProductApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Application/ProductApi.Application.csproj",
+        "projectName": "ProductApi.Application",
+        "projectPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Application/ProductApi.Application.csproj",
+        "packagesPath": "/home/rodrigobojorquez/.nuget/packages/",
+        "outputPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigobojorquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Domain/ProductApi.Domain.csproj": {
+                "projectPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Domain/ProductApi.Domain.csproj"
+              },
+              "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.SharedLibrarySolution/Ecommerce.SharedLibrary/Ecommerce.SharedLibrary.csproj": {
+                "projectPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.SharedLibrarySolution/Ecommerce.SharedLibrary/Ecommerce.SharedLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Domain/ProductApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Domain/ProductApi.Domain.csproj",
+        "projectName": "ProductApi.Domain",
+        "projectPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Domain/ProductApi.Domain.csproj",
+        "packagesPath": "/home/rodrigobojorquez/.nuget/packages/",
+        "outputPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.ProductApiSolution/ProductApi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigobojorquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.SharedLibrarySolution/Ecommerce.SharedLibrary/Ecommerce.SharedLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.SharedLibrarySolution/Ecommerce.SharedLibrary/Ecommerce.SharedLibrary.csproj",
+        "projectName": "Ecommerce.SharedLibrary",
+        "projectPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.SharedLibrarySolution/Ecommerce.SharedLibrary/Ecommerce.SharedLibrary.csproj",
+        "packagesPath": "/home/rodrigobojorquez/.nuget/packages/",
+        "outputPath": "/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.SharedLibrarySolution/Ecommerce.SharedLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rodrigobojorquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -4,16 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759c1591-a50d-4b84-ae14-b1bbe23b3e3e" name="Changes" comment="" />
+    <list default="true" id="759c1591-a50d-4b84-ae14-b1bbe23b3e3e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/Ecommerce.SharedLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/Ecommerce.SharedLibrary.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/Middlewares/GlobalExceptionMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/Middlewares/GlobalExceptionMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/bin/Debug/net8.0/Ecommerce.SharedLibrary.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/bin/Debug/net8.0/Ecommerce.SharedLibrary.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/bin/Debug/net8.0/Ecommerce.SharedLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/bin/Debug/net8.0/Ecommerce.SharedLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/bin/Debug/net8.0/Ecommerce.SharedLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/bin/Debug/net8.0/Ecommerce.SharedLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/Ecommerce.SharedLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/ref/Ecommerce.SharedLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/ref/Ecommerce.SharedLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/refint/Ecommerce.SharedLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Debug/net8.0/refint/Ecommerce.SharedLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Ecommerce.SharedLibrary.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Ecommerce.SharedLibrary.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Ecommerce.SharedLibrary.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Ecommerce.SharedLibrary.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Ecommerce.SharedLibrary.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/Ecommerce.SharedLibrary.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Ecommerce.SharedLibrary/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kiTHh5MkTfvuZFIHSSDFBG3e9Q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +53,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -31,9 +63,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\ogird\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\ogird\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\ogird\\AppData\\Local\\Symbols\\src"
+      "/home/rodrigobojorquez/.config/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/home/rodrigobojorquez/.config/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/home/rodrigobojorquez/.local/share/Symbols/src"
     ]
   }
 }]]></component>
@@ -46,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723765317618</updated>
       <workItem from="1723765318495" duration="2914000" />
+      <workItem from="1723856418857" duration="4847000" />
     </task>
     <servers />
   </component>

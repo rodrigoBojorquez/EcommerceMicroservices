@@ -1,0 +1,12 @@
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/bin/Debug/net8.0/OrderApi.Domain.deps.json
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/bin/Debug/net8.0/OrderApi.Domain.dll
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/bin/Debug/net8.0/OrderApi.Domain.pdb
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/OrderApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/OrderApi.Domain.AssemblyInfoInputs.cache
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/OrderApi.Domain.AssemblyInfo.cs
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/OrderApi.Domain.csproj.CoreCompileInputs.cache
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/OrderApi.Domain.sourcelink.json
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/OrderApi.Domain.dll
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/refint/OrderApi.Domain.dll
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/OrderApi.Domain.pdb
+/home/rodrigobojorquez/code/learn/dotnet/EcommerceMicroservices/DemoEcommerce.OrderApiSolution/OrderApi.Domain/obj/Debug/net8.0/ref/OrderApi.Domain.dll
