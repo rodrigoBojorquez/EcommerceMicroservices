@@ -3,6 +3,6 @@ namespace OrderApi.Application.Dtos.Orders;
 public record OrderDto(
     Guid Id, 
     Guid ProductId,
-    Guid UserId,
+    Guid CustomerId,
     int PurchaseQuantity,
     DateTime OrderDate);

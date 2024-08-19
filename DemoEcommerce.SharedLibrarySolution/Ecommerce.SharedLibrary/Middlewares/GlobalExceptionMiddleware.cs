@@ -10,68 +10,53 @@ public class GlobalExceptionMiddleware(RequestDelegate next)
 {
     public async Task InvokeAsync(HttpContext context)
     {
-        // variables
-        string message = "Sorry, internal server error occurred, try again";
-        int statusCode = StatusCodes.Status500InternalServerError;
-        string title = "Error";
-
         try
         {
             await next(context);
-            
-            // check Too Many Request => 429
+
+            // check Too Many Requests => 429
             if (context.Response.StatusCode == StatusCodes.Status429TooManyRequests)
             {
-                title = "Warning";
-                message = "Too many requests";
-                statusCode = StatusCodes.Status429TooManyRequests;
-                await ModifyHeader(context, title, message, statusCode);
+                await ModifyHeader(context, "Warning", "Too many requests", StatusCodes.Status429TooManyRequests);
             }
-            
-            // check UnAuthorize => 401
-            if (context.Response.StatusCode == StatusCodes.Status401Unauthorized)
+            // check Unauthorized => 401
+            else if (context.Response.StatusCode == StatusCodes.Status401Unauthorized)
             {
-                title = "Alert";
-                message = "Not authorized";
-                statusCode = StatusCodes.Status401Unauthorized;
-                await ModifyHeader(context, title, message, statusCode);
+                await ModifyHeader(context, "Alert", "Not authorized", StatusCodes.Status401Unauthorized);
             }
-            
             // check Forbidden => 403
-            if (context.Response.StatusCode == StatusCodes.Status403Forbidden)
+            else if (context.Response.StatusCode == StatusCodes.Status403Forbidden)
             {
-                title = "Out of access";
-                message = "Not allowed to access";
-                statusCode = StatusCodes.Status403Forbidden;
-                await ModifyHeader(context, title, message, statusCode);    
+                await ModifyHeader(context, "Out of access", "Not allowed to access", StatusCodes.Status403Forbidden);
             }
         }
         catch (Exception ex)
         {
             // Log original exception
             LogException.LogExceptions(ex);
-            
-            // check Timeout => 408
+
+            // Check Timeout => 408
             if (ex is TaskCanceledException || ex is TimeoutException)
             {
-                message = "Request timeout, try again";
-                title = "Time out";
-                statusCode = StatusCodes.Status408RequestTimeout;
+                await ModifyHeader(context, "Time out", "Request timeout, try again", StatusCodes.Status408RequestTimeout);
+                return; // Ensure the response is not modified further
             }
 
-            await ModifyHeader(context, title, message, statusCode);
+            // If not handled, fallback to 500
+            await ModifyHeader(context, "Error", "Sorry, internal server error occurred, try again", StatusCodes.Status500InternalServerError);
         }
     }
     
     private async Task ModifyHeader(HttpContext context, string title, string message, int statusCode)
     {
+        context.Response.Clear();
         context.Response.ContentType = "application/json";
+        context.Response.StatusCode = statusCode;
         await context.Response.WriteAsync(JsonSerializer.Serialize(new ProblemDetails
         {
             Detail = message,
             Status = statusCode,
             Title = title,
         }), CancellationToken.None);
-        return;
     }
 }
